@@ -1,0 +1,20 @@
+[
+  {
+    "id": "TENERIFE-1977",
+    "title": "特内里费空难",
+    "date": "1977-03-27",
+    "location": "西班牙特内里费岛",
+    "casualties": 583,
+    "imageUrl": "/event-images/tenerife.jpg",
+    "description": "两架波音747在跑道相撞..."
+  },
+  {
+    "id": "JAL123-1985",
+    "title": "日本航空123号班机空难",
+    "date": "1985-08-12",
+    "location": "日本群马县",
+    "casualties": 520,
+    "imageUrl": "/event-images/jal123.jpg",
+    "description": "尾翼脱落导致液压系统失效..."
+  }
+] 

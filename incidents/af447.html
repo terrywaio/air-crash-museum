@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AF447: Air France Flight 447 - Air Crash Museum</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <style>
+        .incident-detail {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .incident-header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/images/af447-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .incident-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .incident-meta {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .meta-item {
+            background: rgba(255,255,255,0.1);
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+        .content-section {
+            margin-bottom: 40px;
+        }
+        .content-section h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        .content-section p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        .content-section img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .key-findings {
+            background: #e8f4fc;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        .safety-changes {
+            background: #e8f5e9;
+            padding: 20px;
+            border-left: 4px solid #2ecc71;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1><a href="../index.html">Air Crash Museum</a></h1>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <div class="incident-header">
+            <h1>Air France Flight 447</h1>
+            <p>Rio de Janeiro to Paris · June 1, 2009</p>
+            <div class="incident-meta">
+                <div class="meta-item">228 Fatalities</div>
+                <div class="meta-item">Airbus A330-203</div>
+                <div class="meta-item">Atlantic Ocean</div>
+            </div>
+        </div>
+        
+        <div class="incident-detail">
+            <section class="content-section">
+                <h2>Flight Overview</h2>
+                <p>Air France Flight 447 was a scheduled international passenger flight from Rio de Janeiro, Brazil to Paris, France. On June 1, 2009, the Airbus A330 serving the flight crashed into the Atlantic Ocean, killing all 216 passengers and 12 crew members.</p>
+                <img src="../assets/images/af447-route.jpg" alt="AF447 Flight Path">
+                <p>The aircraft disappeared from radar screens during a storm over the Atlantic Ocean. It took nearly two years to locate the wreckage, which was found at a depth of 3,900 meters (12,800 ft), making it one of the deepest underwater recovery operations in aviation history.</p>
+            </section>
+            
+            <section class="content-section">
+                <h2>Sequence of Events</h2>
+                <p>The accident sequence began when the aircraft encountered a thunderstorm:</p>
+                <ol>
+                    <li>21:10 UTC: Aircraft enters area of intense turbulence</li>
+                    <li>21:13 UTC: Pitot tubes ice over, causing loss of airspeed data</li>
+                    <li>21:14 UTC: Autopilot disconnects, crew loses situational awareness</li>
+                    <li>21:14 UTC: Aircraft enters aerodynamic stall at 35,000 ft</li>
+                    <li>21:16 UTC: Aircraft impacts ocean surface at high vertical speed</li>
+                </ol>
+                <div class="key-findings">
+                    <h3>Key Findings from Investigation</h3>
+                    <ul>
+                        <li>Inconsistent airspeed indications due to iced pitot tubes</li>
+                        <li>Inappropriate control inputs during manual flying</li>
+                        <li>Lack of understanding of aircraft's high-altitude stall behavior</li>
+                        <li>Inadequate cross-checking and communication in the cockpit</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="content-section">
+                <h2>Safety Improvements</h2>
+                <p>The AF447 accident led to significant changes in aviation safety:</p>
+                <div class="safety-changes">
+                    <ul>
+                        <li>Mandatory pitot tube replacement across Airbus fleets</li>
+                        <li>Enhanced stall recovery training for pilots</li>
+                        <li>Improved cockpit instrumentation and alert systems</li>
+                        <li>Development of better data monitoring for oceanic flights</li>
+                        <li>New procedures for unreliable airspeed indications</li>
+                    </ul>
+                </div>
+                <img src="../assets/images/af447-recovery.jpg" alt="Wreckage Recovery">
+            </section>
+            
+            <section class="content-section">
+                <h2>Legacy</h2>
+                <p>The loss of AF447 remains one of the most studied accidents in aviation history. Its investigation revealed critical vulnerabilities in human-machine interaction and led to fundamental changes in:</p>
+                <ul>
+                    <li>Pilot training for high-altitude stalls</li>
+                    <li>Cockpit resource management</li>
+                    <li>Aircraft monitoring systems</li>
+                    <li>Oceanic flight tracking technology</li>
+                </ul>
+                <p>Memorial services are held annually in both Rio de Janeiro and Paris to honor the victims.</p>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Air Crash Museum | Aviation Safety Research Project</p>
+        </div>
+    </footer>
+</body>
+</html> 

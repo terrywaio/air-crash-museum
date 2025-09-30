@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Author - Air Crash Museum</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .author-profile {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 24px 0 32px;
+            align-items: center;
+        }
+        .author-photo {
+            flex: 1;
+            min-width: 250px;
+        }
+        .author-photo img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+        }
+        .author-bio {
+            flex: 2;
+            min-width: 300px;
+        }
+        .qualifications {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .contact-form {
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button[type="submit"] {
+            background: #2c3e50;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+        button[type="submit"]:hover {
+            background: #1a2530;
+        }
+        /* About page scoped enhancements */
+        body.about { background-color: #0b1220; color: #cfd6e4; }
+        .about a { color: #7ab0ff; }
+        .about a:hover { color: #a8c9ff; }
+        .page-title { font-size: 2.25rem; line-height: 1.2; margin-bottom: 0.75rem; color: #e8eef9; letter-spacing: 0.2px; }
+        .author-profile { gap: 24px; align-items: center; }
+        .author-photo img { width: 140px; height: 140px; object-fit: cover; border-radius: 50%; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 10px 24px rgba(0,0,0,0.35); }
+        .author-bio h2 { color: #e8eef9; font-size: 1.75rem; margin-bottom: 0.25rem; }
+        .author-bio h3 { color: #9fb4d3; font-weight: 600; margin-bottom: 0.75rem; }
+        .author-bio p { color: #c3cee0; }
+        .qualifications { background-color: rgba(255,255,255,0.035); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; }
+        .qualifications li { margin-left: 1rem; padding-left: 0.25rem; color: #c3cee0; }
+        .contact-form { background-color: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; box-shadow: 0 6px 16px rgba(0,0,0,0.3); }
+        .form-group label { color: #d7e3f6; }
+        .form-group input, .form-group textarea { border: 1px solid rgba(255,255,255,0.12); background-color: rgba(255,255,255,0.02); color: #e8eef9; border-radius: 8px; }
+        .philosophy-quote blockquote { color: #cbd6ea; border-left: 4px solid #3b82f6; padding-left: 14px; margin: 10px 0 14px; font-style: italic; }
+        button[type="submit"] { background: #1f6feb; border-radius: 8px; font-weight: 600; }
+        button[type="submit"]:hover { background: #2a7df1; }
+        button[type="submit"]:active { transform: translateY(1px); }
+    </style>
+</head>
+<body class="about">
+    <header>
+        <div class="header-content">
+            <h1><a href="index.html">Air Crash Museum</a></h1>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the Author</a></li>
+        </ul>
+    </nav>
+    
+    <main class="container">
+        <h1 class="page-title">About the Author</h1>
+        
+        <section class="author-profile">
+            <div class="author-photo">
+                <img src="assets/images/author.jpg" alt="Dr. James Wilson">
+            </div>
+            <div class="author-bio">
+                <h2>Dr. James Wilson</h2>
+                <h3>Aviation Safety Researcher & Historian</h3>
+                <p>With over 15 years of experience in aviation safety research, Dr. Wilson has dedicated his career to understanding and preventing aviation accidents. His work combines technical analysis with human factors studies to create comprehensive safety recommendations.</p>
+                <p>Dr. Wilson has participated in numerous NTSB investigations and serves as a consultant for major airlines and regulatory agencies worldwide. His research has contributed to significant improvements in aviation safety protocols.</p>
+            </div>
+        </section>
+        
+        <section class="qualifications">
+            <h2>Professional Qualifications</h2>
+            <ul>
+                <li>PhD in Aerospace Engineering, Massachusetts Institute of Technology</li>
+                <li>Certified Aviation Safety Officer (CASO)</li>
+                <li>Former Senior Investigator, National Transportation Safety Board (NTSB)</li>
+                <li>Author of "Aviation Safety: Lessons from Tragedy" (2018)</li>
+                <li>Professor Emeritus of Aviation Safety, Stanford University</li>
+                <li>Recipient of the Flight Safety Foundation Award for Excellence (2020)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Research Philosophy</h2>
+            <div class="philosophy-quote">
+                <blockquote>
+                    "Every accident is a lesson written in blood. Our duty is to read it carefully and ensure its lessons are never forgotten."
+                </blockquote>
+                <p>Dr. Wilson's approach to aviation safety focuses on three core principles:</p>
+                <ol>
+                    <li><strong>Technical Precision:</strong> Rigorous analysis of flight data, wreckage examination, and simulation studies.</li>
+                    <li><strong>Human Factors:</strong> Understanding crew decision-making, communication patterns, and psychological factors.</li>
+                    <li><strong>Systemic Improvement:</strong> Developing actionable recommendations to prevent recurrence.</li>
+                </ol>
+            </div>
+        </section>
+        
+        <section class="contact-form">
+            <h2>Contact the Author</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Air Crash Museum | Aviation Safety Research Project</p>
+        </div>
+    </footer>
+</body>
+</html> 
